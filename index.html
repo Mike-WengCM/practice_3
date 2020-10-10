@@ -1,7 +1,13 @@
 <!-- 按照
 https://youtu.be/tEavVrEPBlA
 金魚都能懂網頁設計入門 : RWD試排版 - 鐵人賽第二十二天 | RWD網頁 | RWD教學 | 網頁教學 by CSScoke
-的RWD試排版練習 -->
+的RWD試排版練習 
+
+以及加上
+
+https://youtu.be/E9SosNZkX7Y
+金魚都能懂網頁設計入門 : RWD選單製作 - 鐵人賽第二十三天 | 網頁教學 | 網頁設計| RWD教學 by CSScoke
+的RWD選單練習-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +19,25 @@ https://youtu.be/tEavVrEPBlA
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+    <input type="checkbox" name="" id="menu_control" />
+
+    <div class="header">
+      <h1 class="logo">
+        <a href="index.html"><img src="https://picsum.photos/60/40/?random=1" /></a>
+      </h1>
+      <label for="menu_control" class="menu_btn">
+        <span>選單</span>
+      </label>
+      <nav>
+        <a href="#">關於我們</a>
+        <a href="#">最新消息</a>
+        <a href="#">產品</a>
+        <a href="#">服務</a>
+        <a href="#">聯絡我們</a>
+        <a href="#">網站地圖</a>
+      </nav>
+    </div>
 
     <div class="banner">
         <img src="https://picsum.photos/1400/500?random=1">
